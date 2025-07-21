@@ -1,9 +1,4 @@
-h1 {
-  color: rgb(226, 47, 77);
-  text-align: center;
-  text-shadow: 1dvh;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
+
 .div img {
   filter: saturate(0%);
   width: 10%;
@@ -12,47 +7,91 @@ h1 {
   object-fit: cover;
   transition: all ease 0.4s;
   cursor: pointer;
+  
 }
 .div img:hover {
   filter: saturate(30%);
   width: 30%;
 }
-.div {
+.div{
   text-align: center;
+  
 }
-h2,
-h3 {
-  color: rgb(226, 47, 77);
+
+.mainHeading{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: xx-large;
+    text-align: center;
+  text-shadow: 1dvh;
+}
+#intro{
   text-align: center;
+  border: 0px solid black;
+  border-radius: 10px;
+  box-shadow: 4px 8px 9px 7px lightgrey;
+  padding: 20px;
+  margin-top: 10px;
+  margin-inline: 20px;
+
+
 }
-p {
-  font-size: large;
+#intro h2{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-ul li::before {
-  content: "";
+#intro p{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-.d1 {
-  border: 4px solid rgb(226, 47, 77);
-  padding: 10px;
+#container{
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit,min-max(180px,1fr)); */
+  grid-template-columns: repeat(4,0.8fr);
+  gap: 15px;
+  padding: 20px;
 }
-.d2 {
-  border: 4px solid rgb(131, 117, 120);
-  padding: 10px;
+#Explosion-profing{
+  border: 1px solid black;
+  box-shadow: 4px 8px 9px 7px lightgrey;
+  padding: 20px;
+  text-align: center;
+  justify-items: center;
 }
-.d3 {
-  border: 4px solid rgb(235, 92, 9);
-  padding: 10px;
+
+#dust-proofing{
+   border: 1px solid black;
+  box-shadow: 4px 8px 9px 7px lightgrey;
+  padding: 20px;
+  text-align: center;
+  justify-items: center;
+
 }
-.d4 {
-  border: 4px solid blue;
-  padding: 10px;
+
+#maintanance{
+  border: 1px solid black;
+  box-shadow: 4px 8px 9px 7px lightgrey;
+  padding: 20px;
+  text-align: center;
+  justify-items: center;
+
 }
-.d5 {
-  border: 4px solid black;
-  padding: 10px;
+#Reporting{
+  border: 1px solid black;
+  box-shadow: 4px 8px 9px 7px lightgrey;
+  padding: 20px;
+  text-align: center;
+  justify-items: center;
+
 }
-.d7 {
-  border: 4px solid rgb(241, 2, 2);
-  padding: 10px;
-  margin-top: 30px;
+header{
+  padding: 30px;
+  background-color: lightskyblue;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+.div{
+  margin-top: 35px;
+}
+.h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
