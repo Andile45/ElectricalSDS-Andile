@@ -1,4 +1,3 @@
-
 .div img {
   filter: saturate(0%);
   width: 10%;
@@ -7,24 +6,22 @@
   object-fit: cover;
   transition: all ease 0.4s;
   cursor: pointer;
-  
 }
 .div img:hover {
   filter: saturate(30%);
   width: 30%;
 }
-.div{
+.div {
   text-align: center;
-  
 }
 
-.mainHeading{
+.mainHeading {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: xx-large;
-    text-align: center;
+  text-align: center;
   text-shadow: 1dvh;
 }
-#intro{
+#intro {
   text-align: center;
   border: 0px solid black;
   border-radius: 10px;
@@ -32,66 +29,80 @@
   padding: 20px;
   margin-top: 10px;
   margin-inline: 20px;
-
-
+  background-color: lightskyblue;
 }
-#intro h2{
+#intro h2 {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-#intro p{
+#intro p {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-#container{
+#container {
   display: grid;
   /* grid-template-columns: repeat(auto-fit,min-max(180px,1fr)); */
-  grid-template-columns: repeat(4,0.8fr);
+  grid-template-columns: repeat(4, 0.8fr);
   gap: 15px;
   padding: 20px;
 }
-#Explosion-profing{
-  border: 1px solid black;
+#Explosion-profing {
+  border: 0px solid black;
   box-shadow: 4px 8px 9px 7px lightgrey;
   padding: 20px;
   text-align: center;
   justify-items: center;
+  background-color: lightskyblue;
+}
+#Explosion-profing:hover {
+  transform: translateY(-15px);
 }
 
-#dust-proofing{
-   border: 1px solid black;
+#dust-proofing {
+  border: 0px solid black;
   box-shadow: 4px 8px 9px 7px lightgrey;
   padding: 20px;
   text-align: center;
   justify-items: center;
-
+  background-color: lightskyblue;
+}
+#dust-proofing:hover {
+  transform: translateY(-15px);
 }
 
-#maintanance{
-  border: 1px solid black;
+#maintanance {
+  border: 0px solid black;
   box-shadow: 4px 8px 9px 7px lightgrey;
   padding: 20px;
   text-align: center;
   justify-items: center;
-
+  background-color: lightskyblue;
 }
-#Reporting{
-  border: 1px solid black;
+
+#maintanance:hover {
+  transform: translateY(-15px);
+}
+#Reporting {
+  border: 0px solid black;
   box-shadow: 4px 8px 9px 7px lightgrey;
   padding: 20px;
   text-align: center;
   justify-items: center;
-
+  background-color: lightskyblue;
 }
-header{
+#Reporting:hover {
+  transform: translateY(-15px);
+}
+
+header {
   padding: 30px;
   background-color: lightskyblue;
 }
-body{
+body {
   padding: 0;
   margin: 0;
 }
-.div{
+.div {
   margin-top: 35px;
 }
-.h3{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
